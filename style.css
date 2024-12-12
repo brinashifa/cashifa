@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Warna latar belakang */
+    color: #333;
+}
+
+header {
+    background-color: #4682b4; /* Warna biru */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.intro {
+    padding: 2em;
+}
+
+.posts {
+    padding: 1em;
+}
+
+.posts article {
+    margin-bottom: 1.5em;
+    background-color: #ffffff; /* Putih */
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.posts article h2 {
+    color: #4682b4; /* Warna biru untuk judul artikel */
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #e6e6fa; /* Lavender */
+}
